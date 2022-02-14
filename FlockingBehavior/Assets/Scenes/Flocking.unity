@@ -215,6 +215,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4869924762411506388, guid: 4e7fc73c509be9447bf7387bc3a4900b,
         type: 3}
+      propertyPath: maxSpeed
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869924762411506388, guid: 4e7fc73c509be9447bf7387bc3a4900b,
+        type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -315,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linearVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
-  maxSpeed: 2
+  maxSpeed: 3.5
   maxAngularVelocity: 45
   myTarget: {fileID: 869189773}
   CheckPoints:
